@@ -21,12 +21,6 @@ Este artigo tem como objetivo principal realizar um levantamento bibliográfico 
 ![Imagem 15](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/0086bb47-0f83-4e42-bcf7-b77edcb54447)
 ![Imagem 16](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/78d5af94-ace4-443f-b232-6fbf94c96a30)
 ![Imagem 17](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/1b08d31d-f816-4f78-a2f0-c63a97fabefd)
-![Imagem 18](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/dd73e9c1-5aa6-436c-98b1-bcbf394204d6)
-![Imagem 19](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/9c12d259-93f8-41e4-a548-d8f08620e450)
-![Imagem 20](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/ed751d38-e6db-4655-aa28-65a6d9719a6e)
-![Imagem 21](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/ff59cd91-93f5-428e-b366-d385e9b35a4e)
-![Imagem 22](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/bc43e669-e86b-4dff-b8dc-25826413e49b)
-![Imagem 23](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/3d8c634b-78d8-44ec-b812-bd0358be7c30)
-![Imagem 24](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/4655cc0b-fa7a-4864-962c-c9875fd44232)
+
 
 

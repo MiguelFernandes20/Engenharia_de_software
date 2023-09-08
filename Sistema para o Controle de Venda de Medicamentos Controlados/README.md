@@ -4,6 +4,13 @@ Este artigo tem como objetivo principal realizar um levantamento bibliográfico 
 
 # Imagens do Desenvolvimento do Projeto
 
+![Imagem 18](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/dd73e9c1-5aa6-436c-98b1-bcbf394204d6)
+![Imagem 19](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/9c12d259-93f8-41e4-a548-d8f08620e450)
+![Imagem 20](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/ed751d38-e6db-4655-aa28-65a6d9719a6e)
+![Imagem 21](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/ff59cd91-93f5-428e-b366-d385e9b35a4e)
+![Imagem 22](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/bc43e669-e86b-4dff-b8dc-25826413e49b)
+![Imagem 23](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/3d8c634b-78d8-44ec-b812-bd0358be7c30)
+![Imagem 24](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/4655cc0b-fa7a-4864-962c-c9875fd44232)
 ![Imagem 1](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/83d59169-d622-4d67-90aa-d30783299539)
 ![Imagem 2](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/5403d0cf-db91-4cc1-8092-747df5efc7f2)
 ![Imagem 3](https://github.com/MiguelFernandes20/Engenharia_de_software/assets/81828702/6343268c-bf11-495b-8b04-5503f12b05ec)

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color_app"
+    android:padding="30dp"
+    android:transitionName="transition_signup"
+    tools:context=".common.auth.patient.SignUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/signup_back_button_pharmacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="callLoginFromSignUp"
+            android:padding="5dp"
+            android:src="@drawable/general_back_icon"
+            android:transitionName="transition_back_arrow_btn"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:id="@+id/signup_title_text_pharmacy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/muli_black"
+                android:text="@string/create_account"
+                android:textAllCaps="true"
+                android:textColor="@color/secodary_color_app"
+                android:textSize="40sp"
+                android:transitionName="transition_title_text" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_name_pharmacy"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_name_pharmacy"
+                android:textColorHint="@color/secodary_color_app"
+                app:boxStrokeColor="@color/secodary_color_app"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/secodary_color_app"
+                app:hintTextColor="@color/secodary_color_app"
+                app:startIconDrawable="@drawable/field_full_name_icon"
+                app:startIconTint="@color/secodary_color_app">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/muli_semibold"
+                    android:inputType="text"
+                    android:textColor="@color/secodary_color_app"
+                    android:textCursorDrawable="@null" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_cnpj_pharmacy"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_cnpj_pharmacy"
+                android:textColorHint="@color/secodary_color_app"
+                app:boxStrokeColor="@color/secodary_color_app"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/secodary_color_app"
+                app:hintTextColor="@color/secodary_color_app"
+                app:startIconDrawable="@drawable/ic_baseline_home_24"
+                app:startIconTint="@color/secodary_color_app">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/muli_semibold"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/secodary_color_app"
+                    android:textCursorDrawable="@null" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_email_pharmacy"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_email_pharmacy"
+                android:textColorHint="@color/secodary_color_app"
+                app:boxStrokeColor="@color/secodary_color_app"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/secodary_color_app"
+                app:hintTextColor="@color/secodary_color_app"
+                app:startIconDrawable="@drawable/ic_baseline_email_24"
+                app:startIconTint="@color/secodary_color_app">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/muli_semibold"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/secodary_color_app"
+                    android:textCursorDrawable="@null" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_password_pharmacy"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_password_pharmacy"
+                android:textColorHint="@color/secodary_color_app"
+                app:boxStrokeColor="@color/secodary_color_app"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconTint="@color/secodary_color_app"
+                app:hintTextColor="@color/secodary_color_app"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/secodary_color_app"
+                app:startIconDrawable="@drawable/ic_baseline_lock_24"
+                app:startIconTint="@color/secodary_color_app">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/muli_semibold"
+                    android:inputType="textPassword"
+                    android:textColor="@color/secodary_color_app"
+                    android:textCursorDrawable="@null" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/signup_next_button_pharmacy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/my_button_bg"
+            android:elevation="5dp"
+            android:onClick="callNextSigupScreen"
+            android:text="@string/create_btn"
+            android:textColor="@color/secodary_color_app"
+            android:transitionName="transition_next_btn" />
+    </LinearLayout>
+
+</ScrollView>

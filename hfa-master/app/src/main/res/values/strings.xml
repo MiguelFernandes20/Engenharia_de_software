@@ -1,0 +1,157 @@
+<resources>
+    <!--  Todo: Basic + Splash Screen Strings  -->
+
+    <string name="app_name">HFA</string>
+    <string name="logo_name">HEALTH FOR ALL</string>
+    <string name="slogan_name">a call for solidarity and action</string>
+    <string name="powered_by">Powered By IFG</string>
+
+    <!--Buttons-->
+    <string name="skip_btn">Sair</string>
+    <string name="next_btn">Próximo</string>
+    <string name="create_btn">Criar</string>
+    <string name="let_get_started">Começar</string>
+
+    <!--  Titles and Descriptions  -->
+    <string name="view_all">Ver todos</string>
+    <string name="search_text">Search...</string>
+
+    <!--Titles-->
+    <string name="first_slide_title">Search Your Location</string>
+    <string name="second_slide_title">Make A Call</string>
+    <string name="third_slide_title">Add Missing Place</string>
+    <string name="fourth_slide_title">Sit Back And Enjoy</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">You can search any place nearby or with-in the specified city. We will display specific or all related shops to match your search. </string>
+    <string name="second_slide_desc">We provide almost all the numbers of all departments and shops registered with us. You can perform bookings as well.</string>
+    <string name="third_slide_desc">If you have a shop or somethings and want to be a part of our growing industry then add your place by follwing simple steps.</string>
+    <string name="fourth_slide_desc">We will handle everything for you. As you have the app in your pocket then you don\'t have to worry about anything.  </string>
+
+    <!--     MENU     -->
+    <string name="home">Principal</string>
+    <string name="search">Pesquisar</string>
+
+    <!--     AUTH     -->
+    <string name="login">Entrar</string>
+    <string name="sign_up">Criar conta</string>
+    <string name="profile">Perfil</string>
+    <string name="logout">Sair</string>
+    <string name="share">Compartilhar</string>
+    <string name="remember_me">Lembra-se</string>
+    <string name="forget_password">Esqueci minha senha</string>
+
+    <!--     All Categories Menu names     -->
+    <string name="expand_all">Expandir</string>
+
+    <!--  General Strings  -->
+    <string name="retailer_heading">Deseja fazer \nlogin como?</string>
+    <string name="create_account">Crie sua\nConta</string>
+
+    <!--  Fields Patient  -->
+    <string name="enter_full_name_patient">Nome Completo</string>
+    <string name="enter_cpf_patient">CPF</string>
+    <string name="enter_rg_patient">RG</string>
+    <string name="enter_email_patient">Email</string>
+    <string name="enter_phone_number_patient">Número</string>
+    <string name="enter_password_patient">Senha</string>
+
+    <!--  Fields Pharmacy  -->
+    <string name="enter_email_pharmacy">Email</string>
+    <string name="enter_name_pharmacy">Nome Fantasia</string>
+    <string name="enter_cnpj_pharmacy">CNPJ</string>
+    <string name="enter_password_pharmacy">Senha</string>
+
+    <!-- Sing Up Patient -->
+    <string name="select_gender_patient">Seu gênero</string>
+    <string name="gender_male_patient">Masculino</string>
+    <string name="gender_female_patient">Feminino</string>
+    <string name="gender_other_patient">Outro</string>
+    <string name="select_your_age_patient">Sua data de nascimento</string>
+
+    <!--   OTP Screen -->
+    <string name="otp_code_text">Co\nde</string>
+    <string name="otp_verification_text">Verificação</string>
+    <string name="otp_description_text">Informe o código enviado em\n</string>
+
+
+    <!--   Reset Password -->
+    <string name="new_credentials">Novas\nCredenciais</string>
+    <string name="new_credentials_detail">Sua conta foi verificada com sucesso!\nInforme sua nova senha</string>
+    <string name="forget_pass">Redefinir senha</string>
+    <string name="forget_password_detail">Forneça o número para qual deseja redefinir a senha!</string>
+    <string name="password_updated">Senha\nAtualizada</string>
+    <string name="password_updated_success_message">sua senha foi atualizada!</string>
+    <string name="make_selection">Escolha uma opção</string>
+    <string name="make_selection_detail">Com qual opção deseja redefir sua senha?</string>
+    <string name="via_sms">via sms:</string>
+    <string name="via_mail">via e-mail:</string>
+    <string name="verify_code">Verificar Código</string>
+    <string name="todo">TODO</string>
+
+    <!--   TODO:Strings for Dashboard    -->
+
+    <!--  Dashboard Patient  -->
+    <string name="prescriptions">Receitas</string>
+    <string name="pharmacies">Farmácias</string>
+    <string name="historico">Histórico</string>
+    <string name="consultas">Consultas</string>
+    <string name="exames">Exames</string>
+    <string name="alarmes">Alarmes</string>
+
+    <string name="crm_medico">Crm do médico:</string>
+    <string name="nome_medico">Nome do médico:</string>
+    <string name="local_consulta">Local da consulta: </string>
+    <string name="nome_paciente">Nome do paciente: </string>
+    <string name="medicamentos">Medicamentos: </string>
+    <string name="qrcode">QRCODE: </string>
+    <string name="data_prescription">Data: </string>
+    <string name="data_prescription_create">Data Criação Receita: </string>
+    <string name="data_prescription_validation">Data Validação Receita: </string>
+    <string name="nome_default">FULANO</string>
+    <string name="data_default">20/10/2022</string>
+    <string name="confirmar">Confirmar</string>
+
+    <string name="nome_farmacia">Nome da farmácia:</string>
+    <string name="email_farmacia">E-mail da farmácia:</string>
+    <string name="cnpj_farmacia">Cnpj da farmácia:</string>
+
+
+    <!-- Menu Receita -->
+    <string name="prescriptions_available">Suas Receitas</string>
+    <string name="text_id_prescriptions">ID</string>
+    <string name="local_consulta_prescriptions">Local Consulta</string>
+    <string name="text_name_doctor_prescriptions">Nome Médico</string>
+    <string name="text_date_prescriptions">Data</string>
+
+    <string name="text_name_resume_prescriptions">Nome Medicamento</string>
+    <string name="text_description_resume_prescriptions">Descrição Medicamento</string>
+
+    <!--  Dashboard Pharmacy  -->
+    <string name="cadastrar_medicamento">Novo Remédio</string>
+    <string name="verificar_receita">Verificar Receita</string>
+    <string name="verificar_crm">Verificar CRM</string>
+    <string name="validar_receita">Validar Receita</string>
+    <string name="relatorio_vendas">Relatórios</string>
+    <string name="ajuda">Ajuda</string>
+
+    <string name="receitas_validadas">Receitas Validadas</string>
+
+
+    <string name="floating_action_button">Add new prescription</string>
+
+    <!--  Titles and Descriptions  -->
+    <string name="featured_locations">All Featured Locations</string>
+    <string name="featured_locations_description">All the locations that are featured and have the top demand in town!</string>
+    <string name="most_viewed_locations">Most Viewed</string>
+    <string name="menus_c">Menu</string>
+
+    <!--     General Menu names     -->
+    <string name="rate_us">Rate Us</string>
+
+    <!--     All Categories Menu names     -->
+    <string name="car_rent">Car Rent</string>
+    <string name="all_shops">All Shops</string>
+    <string name="confirme_medicamentos">Confirme os medicamentos</string>
+
+</resources>
